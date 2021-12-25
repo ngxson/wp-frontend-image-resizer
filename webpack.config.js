@@ -1,11 +1,10 @@
 const path = require('path');
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: './src/image-resizer.js',
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'index.js',
-    libraryTarget: 'commonjs2'
+    path: path.resolve(__dirname, 'build', 'wp-frontend-image-resizer'),
+    filename: 'image-resizer.min.js'
   },
   module: {
     rules: [

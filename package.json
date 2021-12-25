@@ -1,0 +1,38 @@
+{
+  "name": "wp-frontend-image-resizer",
+  "version": "1.0.0",
+  "description": "Resizing image before uploading. This plugin will do that on admin frontend instead of backend.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngxson/wp-frontend-image-resizer.git"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "upload",
+    "image"
+  ],
+  "author": "ngxson",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ngxson/wp-frontend-image-resizer/issues"
+  },
+  "homepage": "https://github.com/ngxson/wp-frontend-image-resizer#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "react-image-file-resizer": "^0.4.7",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

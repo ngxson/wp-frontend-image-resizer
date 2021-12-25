@@ -19,6 +19,7 @@ const resizeImageBeforeUpload = function (file, maxWidth, maxHeight, quality) {
 }
 
 setTimeout(() => {
+  if (!window.wp || !window.wp.apiFetch) return;
   console.log('setup image resizer');
   window.wp.apiFetch.use(async function (options, next) {
     if (
